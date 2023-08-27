@@ -1,0 +1,22 @@
+Host fence.lan
+    User fence.user
+    Color 1
+
+Host unifi-manager.lan
+    User root
+    Port 4422
+    Tag ubuntu
+    Tag vm
+    Color 2
+
+Host dns.lan
+    User root
+    Color 5
+
+
+Host dns.iot
+    User foo
+    Password secure-login-passowrd
+    Tag dns
+    Color 6
+

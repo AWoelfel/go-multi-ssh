@@ -1,0 +1,9 @@
+Host *
+  User root
+  IdentityFile /root/.ssh/%h_id_rsa
+  Tag target
+
+
+Host dns.lan
+    Port 4423
+    Tag dns

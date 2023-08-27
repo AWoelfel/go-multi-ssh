@@ -1,0 +1,13 @@
+Host fence.lan
+    User root
+
+Host unifi-manager.lan
+    User root
+
+Host dns.lan
+    User root
+
+Host dns.iot
+    User root
+
+code

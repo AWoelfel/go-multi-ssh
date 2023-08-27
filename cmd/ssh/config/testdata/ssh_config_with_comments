@@ -1,0 +1,6 @@
+
+#Host gw.lan
+#    User root
+
+Host fence.lan
+    User root
